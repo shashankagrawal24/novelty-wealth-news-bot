@@ -1,0 +1,51 @@
+sources:
+  - name: Biztoc RSS
+    type: rss
+    url: https://biztoc.com/feed
+    trust: discovery
+    category_hint: broad_news
+
+  - name: SEBI
+    type: rss
+    url: https://www.sebi.gov.in/sebirss.xml
+    trust: official
+    category_hint: regulators
+
+  - name: Income Tax Press Releases
+    type: rss
+    url: https://www.incometaxindia.gov.in/press-release-rss-feed/-/asset_publisher/bxhj/rss
+    trust: official
+    category_hint: government_policy
+
+  - name: Income Tax Circulars
+    type: rss
+    url: https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss
+    trust: official
+    category_hint: government_policy
+
+  - name: Income Tax Notifications
+    type: rss
+    url: https://www.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss
+    trust: official
+    category_hint: government_policy
+
+monitored_pages:
+  - name: RBI RSS Directory
+    url: https://www.rbi.org.in/Scripts/rss.aspx
+    reason: Official RBI RSS page; add specific feed URLs after confirming desired sections.
+
+  - name: AMFI RSS Directory
+    url: https://www.amfiindia.com/rss-feeds
+    reason: Official AMFI RSS directory for NFO, AUM, NAV, and AMC-specific feeds.
+
+  - name: PFRDA Press Releases
+    url: https://www.pfrda.org.in/web/pfrda/media/press-releases
+    reason: Official NPS/PFRDA updates; may require page monitoring.
+
+  - name: NSE RSS Directory
+    url: https://www.nseindia.com/rss-feed
+    reason: Official NSE RSS directory for announcements, reports, and circulars.
+
+  - name: BSE RSS Directory
+    url: https://www.bseindia.com/rss-feed.html
+    reason: Official BSE RSS directory for announcements, notices, and Sensex updates.

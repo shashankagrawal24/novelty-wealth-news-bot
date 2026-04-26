@@ -1,0 +1,132 @@
+positive:
+  india:
+    weight: 25
+    terms:
+      - india
+      - indian
+      - rupee
+      - inr
+      - rbi
+      - sebi
+      - irdai
+      - pfrda
+      - cbdt
+      - income tax
+      - nse
+      - bse
+      - nifty
+      - sensex
+      - gst
+      - itr
+      - budget
+
+  personal_finance:
+    weight: 20
+    terms:
+      - personal finance
+      - tax
+      - deduction
+      - exemption
+      - refund
+      - insurance
+      - retirement
+      - pension
+      - emergency fund
+      - emi
+      - loan
+      - credit score
+      - financial planning
+
+  wealth_management:
+    weight: 20
+    terms:
+      - wealth management
+      - portfolio
+      - asset allocation
+      - rebalancing
+      - risk profile
+      - goal planning
+      - family office
+      - hni
+
+  mutual_funds:
+    weight: 20
+    terms:
+      - mutual fund
+      - sip
+      - swp
+      - stp
+      - nav
+      - amfi
+      - equity fund
+      - debt fund
+      - hybrid fund
+      - index fund
+      - etf
+      - elss
+      - nfo
+      - expense ratio
+
+  nps_retirement:
+    weight: 20
+    terms:
+      - nps
+      - national pension system
+      - pfrda
+      - annuity
+      - atal pension yojana
+      - apy
+      - retirement
+
+  banking_credit:
+    weight: 18
+    terms:
+      - credit card
+      - debit card
+      - upi
+      - bank charges
+      - fixed deposit
+      - fd
+      - savings account
+      - cashback
+      - rewards
+
+  markets_macro:
+    weight: 15
+    terms:
+      - stock market
+      - inflation
+      - cpi
+      - repo rate
+      - monetary policy
+      - bond yield
+      - g-sec
+      - crude oil
+      - gold
+      - fiscal deficit
+      - current account deficit
+
+exclude:
+  hard:
+    - entertainment
+    - celebrity
+    - sports
+    - gaming
+    - tabloid
+    - movie
+    - tv show
+    - streaming
+    - recipe
+    - royal family
+    - gossip
+
+  soft:
+    - us politics
+    - uk politics
+    - crime
+    - war
+    - shooting
+    - fashion
+    - travel
+    - health
+    - food
