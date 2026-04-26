@@ -29,6 +29,60 @@ sources:
     trust: official
     category_hint: government_policy
 
+  - name: Mint Money
+    type: rss
+    url: https://www.livemint.com/rss/money
+    trust: news
+    category_hint: personal_finance
+
+  - name: Mint Markets
+    type: rss
+    url: https://www.livemint.com/rss/markets
+    trust: news
+    category_hint: markets_macro
+
+  - name: Mint Insurance
+    type: rss
+    url: https://www.livemint.com/rss/insurance
+    trust: news
+    category_hint: banking_credit
+
+  - name: Google News - India Personal Finance
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20personal%20finance%20OR%20tax%20OR%20insurance%20OR%20retirement&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: personal_finance
+
+  - name: Google News - India Mutual Funds
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20mutual%20fund%20OR%20SIP%20OR%20AMFI%20OR%20NFO%20OR%20ELSS&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: mutual_funds
+
+  - name: Google News - India NPS Retirement
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20NPS%20OR%20National%20Pension%20System%20OR%20PFRDA%20OR%20retirement%20planning&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: nps_retirement
+
+  - name: Google News - India Regulators
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20SEBI%20OR%20RBI%20OR%20IRDAI%20OR%20PFRDA%20investors%20finance&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: regulators
+
+  - name: Google News - India Credit Cards Banking
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20credit%20card%20OR%20banking%20charges%20OR%20UPI%20OR%20RBI%20bank%20customers&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: banking_credit
+
+  - name: Google News - India Markets Macro
+    type: rss
+    url: "https://news.google.com/rss/search?q=India%20stock%20market%20OR%20Nifty%20OR%20Sensex%20OR%20inflation%20OR%20repo%20rate%20investors&hl=en-IN&gl=IN&ceid=IN:en"
+    trust: discovery
+    category_hint: markets_macro
+
 monitored_pages:
   - name: RBI RSS Directory
     url: https://www.rbi.org.in/Scripts/rss.aspx

@@ -40,8 +40,8 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
-          MIN_RELEVANCE_SCORE: ${{ vars.MIN_RELEVANCE_SCORE || '45' }}
-          MAX_ITEMS_PER_RUN: ${{ vars.MAX_ITEMS_PER_RUN || '8' }}
+          MIN_RELEVANCE_SCORE: ${{ vars.MIN_RELEVANCE_SCORE || '40' }}
+          MAX_ITEMS_PER_RUN: ${{ vars.MAX_ITEMS_PER_RUN || '12' }}
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '36' }}
           DRY_RUN: "false"
         run: python -m src.main

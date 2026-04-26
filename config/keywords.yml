@@ -124,7 +124,7 @@ exclude:
     - notice of demand
     - general remittance order
     - defaulter
-    - pan:
+    - "pan:"
     - illiquid stock options
 
   soft:

@@ -28,8 +28,8 @@ def main() -> None:
     sources_config = load_yaml(ROOT / "config" / "sources.yml")
     keyword_config = load_yaml(ROOT / "config" / "keywords.yml")
 
-    min_score = int(os.getenv("MIN_RELEVANCE_SCORE", "45"))
-    max_items = int(os.getenv("MAX_ITEMS_PER_RUN", "8"))
+    min_score = int(os.getenv("MIN_RELEVANCE_SCORE", "40"))
+    max_items = int(os.getenv("MAX_ITEMS_PER_RUN", "12"))
     lookback_hours = int(os.getenv("LOOKBACK_HOURS", "36"))
     seen_path = ROOT / "data" / "seen.json"
 
