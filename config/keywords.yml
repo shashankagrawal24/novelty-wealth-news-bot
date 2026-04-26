@@ -119,6 +119,13 @@ exclude:
     - recipe
     - royal family
     - gossip
+    - adjudication order
+    - recovery certificate
+    - notice of demand
+    - general remittance order
+    - defaulter
+    - pan:
+    - illiquid stock options
 
   soft:
     - us politics
