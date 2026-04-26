@@ -3,7 +3,6 @@ name: Novelty Wealth News Digest
 on:
   schedule:
     - cron: "30 3 * * *"
-    - cron: "30 11 * * *"
   workflow_dispatch:
 
 jobs:
